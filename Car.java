@@ -1,11 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Carro here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Car extends Actor
 {
     /**
@@ -14,6 +8,11 @@ public class Car extends Actor
      */
     public void act()
     {
+        ativarTeclas();
+        irAteMetadeDaTela();
+    }
+    
+    public void ativarTeclas() {
         if (Greenfoot.isKeyDown("d")) {
             move(5);
         }
@@ -26,11 +25,12 @@ public class Car extends Actor
         if (Greenfoot.isKeyDown("s")) {
             setLocation(getX(), getY() + 5);
         }
+    }
+    
+    public void irAteMetadeDaTela() {
         if (getY() == 100){
             setLocation(getX(), getY() + 6);
         }
-        //fazer quando o carro chegar no final da tela 
-        //ele nao consiga ultrapassar
         if (getY() == 330) {
             setLocation(getX(), getY() + 5);
         }
