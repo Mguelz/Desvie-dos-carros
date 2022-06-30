@@ -4,8 +4,13 @@ public class Enemy extends Actor
 {
     public void act()
     {
-        setLocation(getX(), getY() + Greenfoot.getRandomNumber(8));
+        movimentação();
         voltarAoInicioDaTela();
+        baterNoCarro();
+    }
+    
+    public void movimentação() {
+        setLocation(getX(), getY() + Greenfoot.getRandomNumber(8));
     }
     
     public void voltarAoInicioDaTela() {

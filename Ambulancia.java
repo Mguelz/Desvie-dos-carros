@@ -4,12 +4,12 @@ public class Ambulancia extends Actor
 {
     public void act()
     {
-        nascerAleatoriamente();
+        movimentação();
         aoTocarBorda();
         tocarNoCarro();
     }
     
-    public void nascerAleatoriamente() {
+    public void movimentação() {
         setLocation(getX(), getY() + Greenfoot.getRandomNumber(10));
     }
     
