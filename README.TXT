@@ -1,7 +1,6 @@
 PROJECT TITLE: Devise from the car
-PURPOSE OF PROJECT: Estudo
+PURPOSE OF PROJECT: Estudo e desenvolvimento
 VERSION or DATE: 1.0
-HOW TO START THIS PROJECT: Para estudo e desenvolvimento
 AUTHOR: Miguel Arcanjo
 USER INSTRUCTIONS: utilize o teclado (A, S, D, W) para jogar
 
