@@ -4,9 +4,13 @@ public class Person extends Actor
 {
     public void act()
     {
-        setLocation(getX(), getY() + Greenfoot.getRandomNumber(4));
+        mover();
         tocarNoCarro();
         voltarAoTopoDaTela();
+    }
+    
+    public void mover(){
+        setLocation(getX(), getY() + Greenfoot.getRandomNumber(4));    
     }
     
     public void tocarNoCarro() {

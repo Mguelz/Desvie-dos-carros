@@ -25,14 +25,14 @@ public class MyWorld extends World
         addObject(new Enemy(), 108, Greenfoot.getRandomNumber(201)); //y 200
         addObject(new Enemy(), 175, Greenfoot.getRandomNumber(221)); // 120
         addObject(new Enemy(), 227, Greenfoot.getRandomNumber(321)); // 320
-        addObject(new Enemy(), 349, Greenfoot.getRandomNumber(36)); // 35
+        addObject(new Enemy(), 349, Greenfoot.getRandomNumber(131)); // 35
         addObject(new Enemy(), 400, Greenfoot.getRandomNumber(140)); //139
         addObject(new Enemy(), 467, Greenfoot.getRandomNumber(221)); // 220
         addObject(new Enemy(), 515, Greenfoot.getRandomNumber(118)); // 117
         addObject(new Ambulancia(), 295, Greenfoot.getRandomNumber(311)); // 201
-        addObject(new Person(), 15, 301); // 301
-        addObject(new Person(), 15, 36); // 36
-        addObject(new Person(), 572, 202); // 202
-        addObject(new Person(), 572, 544); // 544
+        addObject(new Person(), 15, 301);
+        addObject(new Person(), 15, 36);
+        addObject(new Person(), 572, 202);
+        addObject(new Person(), 572, 544);
     }
 }

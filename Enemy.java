@@ -10,7 +10,7 @@ public class Enemy extends Actor
     }
     
     public void movimentação() {
-        setLocation(getX(), getY() + Greenfoot.getRandomNumber(8));
+        setLocation(getX(), getY() + Greenfoot.getRandomNumber(7));
     }
     
     public void voltarAoInicioDaTela() {
